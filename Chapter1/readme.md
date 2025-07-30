@@ -1,0 +1,3 @@
+- **What is HTML?**
+  - HTML stands for HyperText Markup Language.
+  - It is used to structure content on the web.
