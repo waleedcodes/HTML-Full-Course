@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 4: Forms and Inputs</title>
+  </head>
+  <body>
+    <form action="#" method="posts">
+      <!-- text, email, password, checkbox, radio, date, number, time, file, color, range -->
+
+      <!-- <input
+        type="text"
+        value="waleedcodes"
+        required
+        minlength="3"
+        maxlength="5"
+        placeholder="Full Name"
+        readonly
+      /> -->
+      <!-- <input type="email" /> -->
+      <!-- <input type="password" /> -->
+      <!-- <label for="ceck">Username:</label>
+      <input type="checkbox" checked id="ceck" />
+      <input type="checkbox" />
+      <input type="checkbox" /> -->
+      <!-- <input type="number" value="3215643" /> -->
+      <!-- <input type="radio" name="wa" value="HTML" /> -->
+      <!-- <input type="date" value=""/> -->
+      <!-- <input type="time" value=""/> -->
+      <!-- <input type="file" value="" accept="image/jpeg" /> -->
+      <!-- <input type="color" /> -->
+      <!-- <input type="hidden" value="asd" /> -->
+      <!-- <input type="url" value=""  /> -->
+      <!-- <input
+        type="range"
+        name="volume"
+        min="10"
+        max="100"
+        value="1"
+      /> -->
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </fieldset>
+
+      <!-- <input type="submit" value="submit" /> -->
+      <button type="reset"></button>
+
+      <label for="fruits">Choose a fruit:</label>
+      <select id="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana" selected>Banana</option>
+        <option value="cherry">Cherry</option>
+      </select>
+      <textarea cols="50" rows="5"></textarea>
+    </form>
+  </body>
+</html>
