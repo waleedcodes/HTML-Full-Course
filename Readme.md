@@ -72,7 +72,7 @@
 ### 🧭 Chapter 6: Tables and Layouts
 
 - **6.1: Table Basics**
-  - `<table>`, `<tr>`, `<th>`, `<td>`
+  - `<table>`, `<tr>`, `<th>`, `<td>, <thead>, <tbody>`
 - **6.2: Formatting Tables**
   - `colspan`, `rowspan`, basic CSS styling
 
